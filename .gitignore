@@ -1,0 +1,6 @@
+node_modules/
+message_*.json
+*.pdf
+*.docx
+*.markdown
+.DS_Store

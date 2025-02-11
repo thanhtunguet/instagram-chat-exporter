@@ -1,0 +1,15 @@
+{
+  "name": "instagram-chat-exporter",
+  "version": "1.0.0",
+  "description": "Instagram Chat Exporter",
+  "main": "index.js",
+  "repository": "https://github.com/thanhtunguet/instagram-chat-exporter",
+  "author": "thanhtunguet <thanhtung.uet@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "commander": "^13.1.0",
+    "docx": "^9.1.1",
+    "pdfkit": "^0.16.0"
+  }
+}
