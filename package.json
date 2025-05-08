@@ -1,15 +1,22 @@
 {
-  "name": "instagram-chat-exporter",
+  "name": "message-analyzer",
   "version": "1.0.0",
-  "description": "Instagram Chat Exporter",
-  "main": "index.js",
-  "repository": "https://github.com/thanhtunguet/instagram-chat-exporter",
-  "author": "thanhtunguet <thanhtung.uet@gmail.com>",
-  "license": "MIT",
-  "private": false,
+  "description": "Analyze messages for specific mentions using OpenAI",
+  "main": "analyze_messages.js",
+  "scripts": {
+    "start": "node analyze_messages.js"
+  },
   "dependencies": {
     "commander": "^13.1.0",
-    "docx": "^9.1.1",
-    "pdfkit": "^0.16.0"
+    "docx": "^9.5.0",
+    "dotenv": "^16.3.1",
+    "openai": "^4.0.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.17",
+    "@types/pdfkit": "^0.13.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
   }
 }
